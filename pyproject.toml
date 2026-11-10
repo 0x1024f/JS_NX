@@ -1,0 +1,10 @@
+[project]
+name = "js-nx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx[http2]>=0.28.1",
+    "quickjs>=1.19.4",
+]
